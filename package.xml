@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>arm_ik_control</name>
+  <version>0.0.0</version>
+  <description>C++ port of python ik_control_node, follow official trac_ik examples</description>
+  <maintainer email="user@xxx.com">user</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>trajectory_msgs</build_depend>
+  <build_depend>control_msgs</build_depend>
+  <build_depend>actionlib</build_depend>
+  <build_depend>kdl_parser</build_depend>
+  <build_depend>urdf</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>tf_conversions</build_depend>
+  <build_depend>trac_ik</build_depend>
+
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>trajectory_msgs</exec_depend>
+  <exec_depend>control_msgs</exec_depend>
+  <exec_depend>actionlib</exec_depend>
+  <exec_depend>kdl_parser</exec_depend>
+  <exec_depend>urdf</exec_depend>
+  <exec_depend>tf</exec_depend>
+  <exec_depend>tf_conversions</exec_depend>
+  <exec_depend>trac_ik</exec_depend>
+
+
+
+  <build_depend>boost</build_depend>
+  <build_depend>trac_ik_lib</build_depend>
+  <build_depend>liborocos-kdl-dev</build_depend>
+  <build_depend>libnlopt-dev</build_depend>
+  <build_depend>libnlopt-cxx-dev</build_depend>
+
+  <exec_depend>boost</exec_depend>
+  <exec_depend >liborocos-kdl</exec_depend>
+  <exec_depend>trac_ik_lib</exec_depend>
+  <exec_depend>xacro</exec_depend>
+  <exec_depend>libnlopt-dev</exec_depend>
+  <exec_depend>libnlopt0</exec_depend>
+
+  <build_depend>moveit_core</build_depend>
+  <exec_depend>moveit_core</exec_depend>
+
+  <build_depend>moveit_ros_planning_interface</build_depend>
+  <exec_depend>moveit_ros_planning_interface</exec_depend>
+
+</package>
